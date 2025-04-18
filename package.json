@@ -1,0 +1,15 @@
+{
+    "name": "cocktail-explorer",
+    "version": "1.0.0",
+    "description": "A modern web application for exploring cocktails",
+    "scripts": {
+        "build": "postcss src/styles.css -o dist/styles.css",
+        "watch": "postcss src/styles.css -o dist/styles.css --watch"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.3.0",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "postcss-cli": "^10.1.0"
+    }
+}
